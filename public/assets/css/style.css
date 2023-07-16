@@ -49,7 +49,11 @@ p {
 
 /* COMPONENT STYLE */
 section.section-gap {
-    padding: 122px 0;
+    padding-top: 122px;
+}
+
+section.section-gap-top {
+    margin-top: 72px;
 }
 
 .headline,
@@ -207,6 +211,23 @@ h5 {
     font-weight: bold;
 }
 
+.swiper-pagination-stories {
+    transform: translateY(16px);
+}
+
+.swiper-pagination-bullet {
+    background-color: rgba(var(--light-color), 0.24) !important;
+    width: 10px !important;
+    height: 10px !important;
+    margin: 0 2px !important;
+    border-radius: 9999px !important;
+}
+
+.swiper-pagination-bullet-active {
+    width: 26px !important;
+    background-color: rgba(var(--light-color), 1) !important;
+}
+
 /* .card-icon {
     padding: 15px;
     border-radius: 3px;
@@ -259,51 +280,22 @@ h5 {
 /* END SECTION HERO */
 
 
-/* SECTION TESTIMONI */
-.testimoni .card-default {
-    background-color: rgba(var(--light-secondary-color), 1);
+/* SECTION ABOUT */
+.button-about {
+    all: unset;
+    cursor: pointer;
+    font-size: 0.875rem;
+    padding: 9px 15px;
+    color: rgba(var(--light-color), 1);
+    background-color: transparent;
+    border-radius: 9999px;
 }
 
-.testimoni .profile-image {
-    width: fit-content;
-    height: fit-content;
-    padding: 6px;
-    border-radius: 3px;
-    background-color: rgba(var(--light-color), 1);
-    border: 1px solid rgba(var(--dark-color), 0.12);
+.button-about:hover,
+.button-about.active {
+    background-color: rgba(var(--light-color), 0.12);
 }
-
-.testimoni .profile-image img {
-    width: 48px;
-    height: 48px;
-    border-radius: 3px;
-}
-
-.testimoni .testimoni-name {
-    color: rgba(var(--primary-color), 1);
-}
-
-.testimoni .testimoni-position {
-    color: rgba(var(--dark-color), 1);
-}
-
-.testimoni .swiper-pagination {
-    transform: translateY(52px);
-}
-
-.swiper-pagination-bullet {
-    background-color: rgba(var(--dark-color), 0.24) !important;
-    width: 100px !important;
-    height: 8px !important;
-    margin: 0 !important;
-    border-radius: 0 !important;
-}
-
-.swiper-pagination-bullet-active {
-    width: 100px !important;
-    background-color: rgba(var(--dark-color), 0.34) !important;
-}
-/* END SECTION TESTIMONI */
+/* END SECTION ABOUT */
 
 
 /* SECTION FAQ */
@@ -443,6 +435,10 @@ h5 {
     .headline {
         font-size: 3.25rem;
     }
+
+    .title {
+        font-size: 2.5rem;
+    }
 }
 /* END BREAKPOINT LG */
 
@@ -461,7 +457,11 @@ h5 {
     }
 
     section.section-gap {
-        padding: 72px 0 !important;
+        padding-top: 72px !important;
+    }
+
+    section.section-gap-top {
+        margin-top: 24px;
     }
 
     .headline,

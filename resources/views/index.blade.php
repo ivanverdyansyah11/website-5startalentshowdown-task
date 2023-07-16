@@ -547,6 +547,99 @@
             </section>
             {{-- END FAQ SECTION --}}
         </div>
+
+        {{-- CTA --}}
+        <div class="container position-relative">
+            <section class="cta position-relative">
+                <div class="row justify-content-center position-relative" style="z-index: 9999;">
+                    <div
+                        class="col-11 col-md-9 col-lg-8 col-xl-7 col-xxl-6 text-md-center d-md-flex flex-md-column align-items-md-center">
+                        <h2 class="title" style="padding-right: 24px;">Embrace the Spotlight, Showcase Your
+                            Excellence!</h2>
+                        <p class="paragraph" style="margin-bottom: 36px !important;">Are you ready to showcase your
+                            skills and make a name for yourself? Don't miss this opportunity to be a part of our talent
+                            contest and unlock doors to exciting possibilities. Join us now and let your talent shine on
+                            the grand stage. Sign up today and take your talent to the next level!</p>
+                        <div class="wrapper-button d-flex gap-2 align-items-md-center flex-column flex-md-row">
+                            <a href="#" class="button-secondary">Explore Website</a>
+                            <a href="#" class="button-third d-flex align-items-center gap-2">
+                                Register Now
+                                <div class="arrow-icon"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="box-1 position-absolute d-none d-md-inline-block"></div>
+            <div class="box-2 position-absolute d-none d-md-inline-block"></div>
+        </div>
+        {{-- END CTA --}}
+
+
+        {{-- FOOTER --}}
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="row" style="margin-bottom: 100px">
+                    <div class="col-6 col-md-3 mb-5 mb-md-0">
+                        <a class="footer-brand d-inline-block" href="#home" style="margin-bottom: 18px;">
+                            <img src="{{ asset('assets/img/logo/logo-brand.svg') }}" class="img-fluid w-100"
+                                alt="Logo Brand">
+                        </a>
+                        <p class="paragraph-small" style="margin-bottom: 30px;">Welcome to the 5 Star Talent Showdown,
+                            where dreams come to life and talents are celebrated. Join us for an extraordinary journey
+                            of self-expression, creativity.</p>
+                        <div class="wrapper-sosmed d-flex gap-2">
+                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/img/icon/facebook-icon.svg') }}" class="img-fluid"
+                                    alt="Facebook Icon" width="16">
+                            </a>
+                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/img/icon/whatsapp-icon.svg') }}" class="img-fluid"
+                                    alt="Whatsapp Icon" width="16">
+                            </a>
+                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                                <img src="{{ asset('assets/img/icon/twitter-icon.svg') }}" class="img-fluid"
+                                    alt="Twitter Icon" width="16">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="offset-lg-2 offset-xl-3 col-6 col-md-3 col-lg-2 mb-5 mb-md-0">
+                        <h6 style="margin-bottom: 20px">Quick Links</h6>
+                        <div class="wrapper d-flex flex-column gap-3">
+                            <a href="#home" class="paragraph-small">Home</a>
+                            <a href="#guideline" class="paragraph-small">How to Participate</a>
+                            <a href="#about" class="paragraph-small">About Us</a>
+                            <a href="#pricing" class="paragraph-small">Judging Criteria</a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-xl-2">
+                        <h6 style="margin-bottom: 20px">Our Featured</h6>
+                        <div class="wrapper d-flex flex-column gap-3">
+                            <a href="#adventage" class="paragraph-small">Register and Shine</a>
+                            <a href="#adventage" class="paragraph-small">Prepare, Perform, and Impress</a>
+                            <a href="#adventage" class="paragraph-small">Unleash Your Potential</a>
+                            <a href="#adventage" class="paragraph-small">Join the Spotlight</a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <h6 style="margin-bottom: 20px">Help & guide</h6>
+                        <div class="wrapper d-flex flex-column gap-3">
+                            <a href="" class="paragraph-small">Terms & Conditions</a>
+                            <a href="" class="paragraph-small">Privacy Policy</a>
+                            <a href="" class="paragraph-small">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 copyright text-center">
+                        <p>Copyright © 2023 5 Star Talent Showdown. All Right Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        {{-- END FOOTER --}}
     </main>
     {{-- SCRIPT JS --}}
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>

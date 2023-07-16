@@ -336,27 +336,21 @@ progress {
 
 
 /* SECTION FAQ */
-.faq h6 {
-    font-size: 1rem !important;
-    color: rgba(var(--dark-color), 1) !important;
-    font-family: var(--urbanist-medium) !important;
-}
-
 .accordion-item {
-    border: 1px solid rgba(var(--dark-color), 0.12) !important;
+    border: none !important;
     outline: none !important;
     stroke: none !important;
-    background-color: rgba(var(--light-secondary-color), 1) !important;
+    background-color: rgba(var(--dark-secondary-color), 1) !important;
 }
 
 .accordion-button {
     box-shadow: none !important;
     padding: 24px !important;
-    background-color: rgba(var(--light-secondary-color), 1) !important;
+    background-color: rgba(var(--dark-secondary-color), 1) !important;
 }
 
 .accordion-body > p {
-    border-top: 1px solid rgba(var(--dark-color), 0.12);
+    border-top: 1px solid rgba(var(--light-color), 0.12);
 }
 
 .accordion-button::before {
@@ -368,8 +362,8 @@ progress {
     width: 28px;
     height: 28px;
     border-radius: 3px;
-    border: 1px solid rgba(var(--dark-color), 0.12);
-    background-color: rgba(var(--light-secondary-color), 1);
+    border: none;
+    background-color: rgba(var(--dark-third-color), 1);
     background-image: url('../img/icon/arrow-down.svg');
     background-size: 10px;
     background-repeat: no-repeat;

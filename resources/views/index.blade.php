@@ -360,6 +360,7 @@
             </section>
             {{-- END GALLERY SECTION --}}
 
+
             {{-- CRITERIA SECTION --}}
             <section class="criteria section-gap" id="criteria">
                 <div class="row">
@@ -460,6 +461,91 @@
                 </div>
             </section>
             {{-- END CRITERIA SECTION --}}
+
+
+            {{-- FAQ SECTION --}}
+            <section class="faq d-flex align-items-center section-gap pt-5 section-gap-top" id="faq">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-xl-6 col-xxl-7 pe-xxl-5 pe-xxl-0">
+                        <span class="subtitle d-inline-block" style="margin-bottom: 14px !important;">Find answers to
+                            your queries</span>
+                        <h2 class="title" style="padding-right: 24px;">Frequently Asked Questions, Your Guide to
+                            Success</h2>
+                        <p class="paragraph" style="margin-bottom: 36px !important;">Discover answers to commonly
+                            asked questions about the talent contest,
+                            eligibility, submission guidelines, and more. We're here to provide clarity and support to
+                            ensure your journey is smooth.</p>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        <h6>How do I submit my entry for the talent contest?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p class="paragraph-small pt-3">To submit your entry, simply visit our
+                                            website and follow the instructions on the submission page.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion mt-3" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                                        aria-controls="collapseTwo">
+                                        <h6>Is there an age limit for participating in the talent contest?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p class="paragraph-small pt-3">JumpZone is suitable for all ages, but
+                                            children
+                                            under 6 years old must be accompanied by a paying adult for safety
+                                            purposes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion mt-3" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button card-default" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                        aria-expanded="true" aria-controls="collapseThree">
+                                        <h6>Can I submit multiple entries for the talent contest?</h6>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0">
+                                        <p class="paragraph-small pt-3">JumpZone is suitable for all ages, but
+                                            children
+                                            under 6 years old must be accompanied by a paying adult for safety
+                                            purposes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-xl-6 col-xxl-5 ps-lg-5 ps-xxl-0 d-none d-lg-flex justify-content-end">
+                        <img src="{{ asset('assets/img/banner/faq-banner.svg') }}" class="img-fluid FAQ Banner"
+                            alt="Hero Banner">
+                    </div>
+                </div>
+            </section>
+            {{-- END FAQ SECTION --}}
         </div>
     </main>
     {{-- SCRIPT JS --}}

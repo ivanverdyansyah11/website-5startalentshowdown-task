@@ -84,22 +84,92 @@
             {{-- STEP SECTION --}}
             <section class="step section-gap" id="step">
                 <div class="row">
-                    <div class="col-5">
+                    <div class="col-lg-5 mb-5 mb-lg-0">
                         <span class="subtitle d-inline-block" style="margin-bottom: 14px !important;">Step-by-Step Guide
                             to Showcasing Your Talent</span>
                         <h2 class="title" style="margin-bottom: 18px !important; padding-right: 24px;">Step into the
                             Spotlight, Show the World Your Talent</h2>
-                        <p class="paragraph" style="margin-bottom: 36px !important;">Welcome to the How to Participate
+                        <p class="paragraph">Welcome to the How to Participate
                             section!
                             Here, we guide you through the
                             steps to showcase your extraordinary skills and be a part of our talent contest. From
                             auditions to submissions.</p>
-                        <a href="#" class="button-default d-flex align-items-center gap-2">
+                        <a href="#" class="button-default d-none d-lg-flex align-items-center gap-2"
+                            style="margin-top: 36px !important;">
                             Get Started
-                            <div class="arrow-icon"></div>
+                            <div class="arrow-icon">
+                            </div>
                         </a>
                     </div>
-                    <div class="offset-1 col-6"></div>
+                    <div class="offset-xl-1 col-lg-7 col-xl-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card-default">
+                                    <span class="card-number d-flex justify-content-center align-items-center"
+                                        style="margin-bottom: 18px;">1</span>
+                                    <h6 style="margin-bottom: 6px;">Register and Shine</h6>
+                                    <p class="paragraph-small">Join Our Talent Contest and Showcase Your Skills!"
+                                        Participate in our talent contest by registering online and get ready to
+                                        showcase your unique talents to the world.</p>
+                                </div>
+
+                                <div class="card-default mt-4 mt-md-0 d-md-none">
+                                    <span class="card-number d-flex justify-content-center align-items-center"
+                                        style="margin-bottom: 18px;">2</span>
+                                    <h6 style="margin-bottom: 6px;">Prepare, Perform, and Impress</h6>
+                                    <p class="paragraph-small">Get ready to showcase your skills and talent in our
+                                        exciting contest. Prepare your act, whether it's singing, dancing, magic, or any
+                                        other talent.</p>
+                                </div>
+
+                                <div class="card-default mt-4">
+                                    <span class="card-number d-flex justify-content-center align-items-center"
+                                        style="margin-bottom: 18px;">3</span>
+                                    <h6 style="margin-bottom: 6px;">Unleash Your Potential</h6>
+                                    <p class="paragraph-small">Unleash your hidden potential and embark on a
+                                        transformative journey in our talent contest. Discover new talents, develop your
+                                        skills, and shine brightly on our stage.</p>
+                                </div>
+
+
+                                <div class="card-default mt-4 d-md-none">
+                                    <span class="card-number d-flex justify-content-center align-items-center"
+                                        style="margin-bottom: 18px;">4</span>
+                                    <h6 style="margin-bottom: 6px;">Join the Spotlight</h6>
+                                    <p class="paragraph-small">It's your time to shine! Participate in our talent
+                                        contest and make your mark in the entertainment world. Showcase your unique
+                                        talents, captivate the audience.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-default mt-4 mt-md-0 d-none d-md-inline-block">
+                                    <span class="card-number d-flex justify-content-center align-items-center"
+                                        style="margin-bottom: 18px;">2</span>
+                                    <h6 style="margin-bottom: 6px;">Prepare, Perform, and Impress</h6>
+                                    <p class="paragraph-small">Get ready to showcase your skills and talent in our
+                                        exciting contest. Prepare your act, whether it's singing, dancing, magic, or any
+                                        other talent.</p>
+                                </div>
+
+                                <div class="card-default mt-4 d-none d-md-inline-block">
+                                    <span class="card-number d-flex justify-content-center align-items-center"
+                                        style="margin-bottom: 18px;">4</span>
+                                    <h6 style="margin-bottom: 6px;">Join the Spotlight</h6>
+                                    <p class="paragraph-small">It's your time to shine! Participate in our talent
+                                        contest and make your mark in the entertainment world. Showcase your unique
+                                        talents, captivate the audience.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 d-lg-none">
+                                <a href="#" class="button-default d-flex align-items-center gap-2"
+                                    style="margin-top: 36px !important;">
+                                    Get Started
+                                    <div class="arrow-icon">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             {{-- END STEP SECTION --}}

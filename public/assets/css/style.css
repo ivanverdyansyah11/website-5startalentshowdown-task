@@ -78,7 +78,7 @@ section.section-gap {
 p.paragraph,
 p.paragraph-small {
     font-size: 1rem;
-    color: rgba(var(--light-color), 0.82);
+    color: rgba(var(--light-color), 0.72);
 }
 
 p.paragraph-small {
@@ -192,14 +192,22 @@ h5 {
     color: rgba(var(--secondary-color), 1);
 }
 
-/* .card-default {
-    background-color: rgba(var(--light-color), 1);
-    padding: 30px;
-    border: 1px solid rgba(var(--dark-color), 0.12);
-    border-radius: 3px;
+.card-default {
+    background-color: rgba(var(--dark-secondary-color), 1);
+    padding: 20px;
+    border-radius: 12px;
 }
 
-.card-icon {
+.card-number {
+    width: 52px;
+    height: 52px;
+    border-radius: 6px;
+    background-color: rgba(var(--dark-third-color), 1);
+    font-size: 1.675rem;
+    font-weight: bold;
+}
+
+/* .card-icon {
     padding: 15px;
     border-radius: 3px;
     background-color: rgba(var(--light-secondary-color), 1);

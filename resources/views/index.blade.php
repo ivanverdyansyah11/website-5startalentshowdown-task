@@ -292,6 +292,174 @@
                 </div>
             </section>
             {{-- END ABOUT SECTION --}}
+
+
+            {{-- GALLERY SECTION --}}
+            <section class="gallery section-gap" id="gallery">
+                <div class="row">
+                    <div class="col-lg-5 mb-5 mb-lg-0">
+                        <span class="subtitle d-inline-block" style="margin-bottom: 14px !important;">Moments of
+                            Brilliance and Creativity</span>
+                        <h2 class="title" style="margin-bottom: 18px !important; padding-right: 24px;">Capturing
+                            Moments of Talent and Inspiration</h2>
+                        <p class="paragraph">Explore our gallery showcasing captivating moments from previous talent
+                            contests, where talented individuals from various disciplines took the stage, unleashing
+                            their creativity and leaving a lasting impact.</p>
+                    </div>
+                    <div class="offset-xl-1 col-lg-7 col-xl-6">
+                        <div class="wrapper">
+                            <div class="swiper mySwiperGallery">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="wrapper-image">
+                                            <img src="{{ asset('assets/img/gallery/gallery-1.svg') }}"
+                                                class="img-fluid w-100" alt="Gallery Image">
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="wrapper-image">
+                                            <img src="{{ asset('assets/img/gallery/gallery-2.svg') }}"
+                                                class="img-fluid w-100" alt="Gallery Image">
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="wrapper-image">
+                                            <img src="{{ asset('assets/img/gallery/gallery-3.svg') }}"
+                                                class="img-fluid w-100" alt="Gallery Image">
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="wrapper-image">
+                                            <img src="{{ asset('assets/img/gallery/gallery-1.svg') }}"
+                                                class="img-fluid w-100" alt="Gallery Image">
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="wrapper-image">
+                                            <img src="{{ asset('assets/img/gallery/gallery-2.svg') }}"
+                                                class="img-fluid w-100" alt="Gallery Image">
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="wrapper-image">
+                                            <img src="{{ asset('assets/img/gallery/gallery-3.svg') }}"
+                                                class="img-fluid w-100" alt="Gallery Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination-gallery"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {{-- END GALLERY SECTION --}}
+
+            {{-- CRITERIA SECTION --}}
+            <section class="criteria section-gap" id="criteria">
+                <div class="row">
+                    <div class="col-lg-7 col-xl-6 order-2 order-lg-1">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card-default">
+                                    <div class="wrapper d-flex justify-content-between align-items-center"
+                                        style="margin-bottom: 6px;">
+                                        <h6>Technical Skill</h6>
+                                        <p class="paragraph-primary">40 poin</p>
+                                    </div>
+                                    <p class="paragraph-small" style="margin-bottom: 18px;">Assessing the contestant's
+                                        proficiency and execution of
+                                        their talent, including technique, precision, and mastery.</p>
+                                    <progress value="40" max="100"></progress>
+                                </div>
+
+                                <div class="card-default mt-4">
+                                    <div class="wrapper d-flex justify-content-between align-items-center"
+                                        style="margin-bottom: 6px;">
+                                        <h6>Stage Presence</h6>
+                                        <p class="paragraph-primary">20 poin</p>
+                                    </div>
+                                    <p class="paragraph-small" style="margin-bottom: 18px;">Considering the
+                                        contestant's charisma, confidence, and evaluating their overall stage presence
+                                        and performance quality.</p>
+                                    <progress value="20" max="100"></progress>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="card-default mt-4 mt-md-0">
+                                    <div class="wrapper d-flex justify-content-between align-items-center"
+                                        style="margin-bottom: 6px;">
+                                        <h6>Creativity and Originality</h6>
+                                        <p class="paragraph-primary">30 poin</p>
+                                    </div>
+                                    <p class="paragraph-small" style="margin-bottom: 18px;">Evaluating the uniqueness
+                                        and innovation demonstrated in the performance, and bring fresh ideas to their
+                                        talent.</p>
+                                    <progress value="30" max="100"></progress>
+                                </div>
+
+                                <div class="card-default mt-4">
+                                    <div class="wrapper d-flex justify-content-between align-items-center"
+                                        style="margin-bottom: 6px;">
+                                        <h6>Overall Impact</h6>
+                                        <p class="paragraph-primary">10 poin</p>
+                                    </div>
+                                    <p class="paragraph-small" style="margin-bottom: 18px;">Examining the overall
+                                        impact and impression created by the contestant's talent, and lasting impression
+                                        on the judges and audience.</p>
+                                    <progress value="10" max="100"></progress>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="offset-xl-1 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">
+                        <span class="subtitle d-inline-block" style="margin-bottom: 14px !important;">Skill and
+                            Technique Assessment</span>
+                        <h2 class="title" style="margin-bottom: 18px !important; padding-right: 24px;">Our Judging
+                            Criteria for Talent Contest</h2>
+                        <p class="paragraph">In our talent contest, we uphold fairness and transparency through our
+                            carefully crafted judging criteria. Our panel of expert judges evaluates performances based
+                            on a set of criteria that encompasses skill, creativity, stage presence, originality, and
+                            audience engagement.</p>
+                        <div class="wrapper-criteria">
+                            <div class="row">
+                                <div class="col-6 d-flex flex-column gap-3">
+                                    <div class="criteria-item d-flex align-items-center gap-2">
+                                        <img src="{{ asset('assets/img/icon/checklist.svg') }}" class="img-fluid"
+                                            alt="Checklist Icon">
+                                        <p class="paragraph-small">Broad Audience Reach</p>
+                                    </div>
+                                    <div class="criteria-item d-flex align-items-center gap-2">
+                                        <img src="{{ asset('assets/img/icon/checklist.svg') }}" class="img-fluid"
+                                            alt="Checklist Icon">
+                                        <p class="paragraph-small">Prizes and Rewards</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 d-flex flex-column gap-3">
+                                    <div class="criteria-item d-flex align-items-center gap-2">
+                                        <img src="{{ asset('assets/img/icon/checklist.svg') }}" class="img-fluid"
+                                            alt="Checklist Icon">
+                                        <p class="paragraph-small">Valuable Feedback</p>
+                                    </div>
+                                    <div class="criteria-item d-flex align-items-center gap-2">
+                                        <img src="{{ asset('assets/img/icon/checklist.svg') }}" class="img-fluid"
+                                            alt="Checklist Icon">
+                                        <p class="paragraph-small">Personal Growth</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {{-- END CRITERIA SECTION --}}
         </div>
     </main>
     {{-- SCRIPT JS --}}
@@ -311,6 +479,29 @@
             },
             pagination: {
                 el: ".swiper-pagination-stories",
+                clickable: true,
+            },
+        });
+
+        var swiper = new Swiper(".mySwiperGallery", {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            breakpoints: {
+                640: {
+                    slidesPerView: 3,
+                    spaceBetween: 20
+                },
+                992: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                1399: {
+                    slidesPerView: 3,
+                    spaceBetween: 20
+                }
+            },
+            pagination: {
+                el: ".swiper-pagination-gallery",
                 clickable: true,
             },
         });

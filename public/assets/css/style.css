@@ -211,7 +211,8 @@ h5 {
     font-weight: bold;
 }
 
-.swiper-pagination-stories {
+.swiper-pagination-stories,
+.swiper-pagination-gallery {
     transform: translateY(16px);
 }
 
@@ -296,6 +297,42 @@ h5 {
     background-color: rgba(var(--light-color), 0.12);
 }
 /* END SECTION ABOUT */
+
+
+/* SECTION GALLERY */
+.wrapper-image {
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid rgba(var(--light-color), 1);
+}
+
+.wrapper-image:hover > img {
+    transform: scale(1.04);
+}
+/* END SECTION GALLERY */
+
+
+/* SECTION CRITERIA */
+.wrapper-criteria {
+    padding-top: 26px;
+    margin-top: 30px;
+    border-top: 1px solid rgba(var(--light-color), 0.12);
+}
+
+progress {
+    border-radius: 9999px; 
+    width: 100%;
+    height: 10px;
+  }
+  progress::-webkit-progress-bar {
+    background-color: #12122B;
+    border-radius: 9999px;
+  }
+  progress::-webkit-progress-value {
+    background-color: rgba(var(--primary-color), 1);
+    border-radius: 9999px;
+  }
+/* END SECTION CRITERIA */
 
 
 /* SECTION FAQ */
@@ -471,6 +508,12 @@ h5 {
 
     .title {
         font-size: 2.25rem;
+    }
+
+    .wrapper-criteria {
+        padding-top: 0;
+        margin-top: 30px;
+        border-top: none;
     }
 }
 /* END BREAKPOINT MD */

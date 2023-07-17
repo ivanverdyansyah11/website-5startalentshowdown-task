@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
 
-<body>
+<body id="home">
 
     {{-- NAVBAR --}}
     <nav class="navbar navbar-expand-lg py-3 position-absolute" style="width: 100%; z-index: 9999;">
@@ -23,13 +23,14 @@
             </a>
             <div class="collapse navbar-collapse d-lg-flex justify-content-lg-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link py-2 py-lg-0 px-lg-3 active" href="">Home</a>
-                    <a class="nav-link py-2 py-lg-0 px-lg-3" href="">How to Participate</a>
-                    <a class="nav-link py-2 py-lg-0 px-lg-3" href="">About Us</a>
-                    <a class="nav-link py-2 py-lg-0 px-lg-3" href="">Judging Criteria</a>
+                    <a class="nav-link py-2 py-lg-0 px-lg-3 active" href="#home">Home</a>
+                    <a class="nav-link py-2 py-lg-0 px-lg-3" href="#step">How to Participate</a>
+                    <a class="nav-link py-2 py-lg-0 px-lg-3" href="#about">About Us</a>
+                    <a class="nav-link py-2 py-lg-0 px-lg-3" href="#criteria">Judging Criteria</a>
                 </div>
             </div>
-            <a href="#" class="button-secondary d-none d-lg-flex align-items-center gap-2">
+            <a href="https://wa.me/6281234567890" target="_blank"
+                class="button-secondary d-none d-lg-flex align-items-center gap-2">
                 Contact Us
                 <div class="arrow-icon"></div>
             </a>
@@ -62,8 +63,8 @@
                                     moment of glory at the 5 Star Talent Showdown!</p>
                             </div>
                             <div class="wrapper-button d-flex gap-2 align-items-md-center flex-column flex-md-row">
-                                <a href="#" class="button-default">Introduce Showdown</a>
-                                <a href="#" class="button-secondary d-flex align-items-center gap-2">
+                                <a href="#gallery" class="button-default">Introduce Showdown</a>
+                                <a href="#about" class="button-secondary d-flex align-items-center gap-2">
                                     Get Started
                                     <div class="arrow-icon"></div>
                                 </a>
@@ -94,7 +95,7 @@
                             Here, we guide you through the
                             steps to showcase your extraordinary skills and be a part of our talent contest. From
                             auditions to submissions.</p>
-                        <a href="#" class="button-default d-none d-lg-flex align-items-center gap-2"
+                        <a href="#about" class="button-default d-none d-lg-flex align-items-center gap-2"
                             style="margin-top: 36px !important;">
                             Get Started
                             <div class="arrow-icon">
@@ -549,8 +550,9 @@
                             contest and unlock doors to exciting possibilities. Join us now and let your talent shine on
                             the grand stage. Sign up today and take your talent to the next level!</p>
                         <div class="wrapper-button d-flex gap-2 align-items-md-center flex-column flex-md-row">
-                            <a href="#" class="button-secondary">Explore Website</a>
-                            <a href="#" class="button-third d-flex align-items-center gap-2">
+                            <a href="#home" class="button-secondary">Explore Website</a>
+                            <a href="https://wa.me/6281234567890" target="_blank"
+                                class="button-third d-flex align-items-center gap-2">
                                 Register Now
                                 <div class="arrow-icon"></div>
                             </a>
@@ -577,15 +579,18 @@
                             where dreams come to life and talents are celebrated. Join us for an extraordinary journey
                             of self-expression, creativity.</p>
                         <div class="wrapper-sosmed d-flex gap-2">
-                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                            <a href="https://id-id.facebook.com/" target="_blank"
+                                class="sosmed-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/icon/facebook-icon.svg') }}" class="img-fluid"
                                     alt="Facebook Icon" width="16">
                             </a>
-                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                            <a href="https://www.whatsapp.com/" target="_blank"
+                                class="sosmed-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/icon/whatsapp-icon.svg') }}" class="img-fluid"
                                     alt="Whatsapp Icon" width="16">
                             </a>
-                            <a href="#" class="sosmed-icon d-flex justify-content-center align-items-center">
+                            <a href="https://twitter.com/?lang=id" target="_blank"
+                                class="sosmed-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('assets/img/icon/twitter-icon.svg') }}" class="img-fluid"
                                     alt="Twitter Icon" width="16">
                             </a>
@@ -596,26 +601,26 @@
                         <h6 style="margin-bottom: 20px">Quick Links</h6>
                         <div class="wrapper d-flex flex-column gap-3">
                             <a href="#home" class="paragraph-small">Home</a>
-                            <a href="#guideline" class="paragraph-small">How to Participate</a>
+                            <a href="#step" class="paragraph-small">How to Participate</a>
                             <a href="#about" class="paragraph-small">About Us</a>
-                            <a href="#pricing" class="paragraph-small">Judging Criteria</a>
+                            <a href="#criteria" class="paragraph-small">Judging Criteria</a>
                         </div>
                     </div>
                     <div class="col-6 col-md-3 col-xl-2">
-                        <h6 style="margin-bottom: 20px">Our Featured</h6>
+                        <h6 style="margin-bottom: 20px">Step by Step to Join</h6>
                         <div class="wrapper d-flex flex-column gap-3">
-                            <a href="#adventage" class="paragraph-small">Register and Shine</a>
-                            <a href="#adventage" class="paragraph-small">Prepare, Perform, and Impress</a>
-                            <a href="#adventage" class="paragraph-small">Unleash Your Potential</a>
-                            <a href="#adventage" class="paragraph-small">Join the Spotlight</a>
+                            <a href="#step" class="paragraph-small">Register and Shine</a>
+                            <a href="#step" class="paragraph-small">Prepare, Perform, and Impress</a>
+                            <a href="#step" class="paragraph-small">Unleash Your Potential</a>
+                            <a href="#step" class="paragraph-small">Join the Spotlight</a>
                         </div>
                     </div>
                     <div class="col-6 col-md-3 col-lg-2">
                         <h6 style="margin-bottom: 20px">Help & guide</h6>
                         <div class="wrapper d-flex flex-column gap-3">
-                            <a href="" class="paragraph-small">Terms & Conditions</a>
-                            <a href="" class="paragraph-small">Privacy Policy</a>
-                            <a href="" class="paragraph-small">Contact Us</a>
+                            <a href="#" class="paragraph-small">Terms & Conditions</a>
+                            <a href="#" class="paragraph-small">Privacy Policy</a>
+                            <a href="#" class="paragraph-small">Contact Us</a>
                         </div>
                     </div>
                 </div>

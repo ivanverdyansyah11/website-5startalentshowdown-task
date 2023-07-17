@@ -322,21 +322,14 @@
 
                                     <div class="swiper-slide">
                                         <div class="wrapper-image">
-                                            <img src="{{ asset('assets/img/gallery/gallery-1.svg') }}"
+                                            <img src="{{ asset('assets/img/gallery/gallery-4.svg') }}"
                                                 class="img-fluid w-100" alt="Gallery Image">
                                         </div>
                                     </div>
 
                                     <div class="swiper-slide">
                                         <div class="wrapper-image">
-                                            <img src="{{ asset('assets/img/gallery/gallery-2.svg') }}"
-                                                class="img-fluid w-100" alt="Gallery Image">
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="wrapper-image">
-                                            <img src="{{ asset('assets/img/gallery/gallery-3.svg') }}"
+                                            <img src="{{ asset('assets/img/gallery/gallery-5.svg') }}"
                                                 class="img-fluid w-100" alt="Gallery Image">
                                         </div>
                                     </div>
@@ -464,64 +457,68 @@
                             asked questions about the talent contest,
                             eligibility, submission guidelines, and more. We're here to provide clarity and support to
                             ensure your journey is smooth.</p>
-                        <div class="accordion" id="accordionExample">
+                        <div class="accordion" id="collapseOne">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button card-default" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                                         aria-controls="collapseOne">
-                                        <h6>How do I submit my entry for the talent contest?</h6>
+                                        <h6>What are the categories available in the 5 Star Talent Showdown?</h6>
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
+                                    data-bs-parent="#collapseOne">
                                     <div class="accordion-body pt-0">
-                                        <p class="paragraph-small pt-3">To submit your entry, simply visit our
-                                            website and follow the instructions on the submission page.
+                                        <p class="paragraph-small pt-3">The 5 Star Talent Showdown offers a wide range
+                                            of categories for participants to showcase their talents, including singing,
+                                            dancing, comedy, magic, instrumental performances, and more. We aim to
+                                            provide a platform for diverse talents to shine and be recognized.
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="accordion mt-3" id="accordionExample">
+                        <div class="accordion mt-3" id="collapseTwo">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button card-default" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
                                         aria-controls="collapseTwo">
-                                        <h6>Is there an age limit for participating in the talent contest?</h6>
+                                        <h6>How can I participate in the 5 Star Talent Showdown?</h6>
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
+                                    data-bs-parent="#collapseTwo">
                                     <div class="accordion-body pt-0">
-                                        <p class="paragraph-small pt-3">JumpZone is suitable for all ages, but
-                                            children
-                                            under 6 years old must be accompanied by a paying adult for safety
-                                            purposes.
+                                        <p class="paragraph-small pt-3">To participate in the 5 Star Talent Showdown,
+                                            you can register through our official website by filling out the application
+                                            form. Make sure to provide accurate details about your talent, such as the
+                                            category you wish to compete in and any requirements for your performance.
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="accordion mt-3" id="accordionExample">
+                        <div class="accordion mt-3" id="collapseThree">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button card-default" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                         aria-expanded="true" aria-controls="collapseThree">
-                                        <h6>Can I submit multiple entries for the talent contest?</h6>
+                                        <h6>How are the winners determined in the 5 Star Talent Showdown?</h6>
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
-                                    data-bs-parent="#accordionExample">
+                                    data-bs-parent="#collapseThree">
                                     <div class="accordion-body pt-0">
-                                        <p class="paragraph-small pt-3">JumpZone is suitable for all ages, but
-                                            children
-                                            under 6 years old must be accompanied by a paying adult for safety
-                                            purposes.
+                                        <p class="paragraph-small pt-3">The winners of the 5 Star Talent Showdown are
+                                            determined by a combination of judges' scores and audience voting. A panel
+                                            of experienced judges evaluates the performances based on criteria such as
+                                            skill, stage presence, creativity, and audience appeal. The audience also
+                                            has the opportunity to vote for their favorite acts, contributing to the
+                                            overall scoring and determining the winners.
                                         </p>
                                     </div>
                                 </div>

@@ -254,17 +254,19 @@
                         <h2 class="title" style="padding-right: 24px;">Unleashing the
                             Power of Talent, A Platform for Dreamers to Shine and Inspire</h2>
                         <div class="wrapper-about d-flex gap-2" style="margin: 18px 0 20px !important;">
-                            <button class="button-about active">Introduce</button>
-                            <button class="button-about">Vision & Mission</button>
-                            <button class="button-about">Our History</button>
+                            <button class="button-about button-introduce active">Introduce</button>
+                            <button class="button-about button-vision">Vision & Mission</button>
+                            <button class="button-about button-history">Our History</button>
                         </div>
                         <div class="wrapper-paragraph d-flex flex-column gap-2"
                             style="margin-bottom: 36px !important;">
-                            <p class="paragraph">At our talent contest, we are committed to unleashing the power of
+                            <p class="paragraph paragraph-one">At our talent contest, we are committed to unleashing
+                                the power of
                                 talent and providing a platform for dreamers to showcase their unique abilities. We
                                 believe that everyone deserves a chance to be heard, seen, and celebrated for their
                                 extraordinary gifts.</p>
-                            <p class="paragraph">With a vibrant community of artists, mentors, and enthusiasts, we
+                            <p class="paragraph paragraph-two">With a vibrant community of artists, mentors, and
+                                enthusiasts, we
                                 foster an environment that sparks creativity, fosters growth, and inspires others to
                                 pursue their passions. Join us on this incredible journey of talent discovery, where
                                 dreams become reality and stars are born.</p>

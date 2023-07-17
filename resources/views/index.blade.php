@@ -186,13 +186,12 @@
                                         <div class="card-default">
                                             <img src="{{ asset('assets/img/stories/stories-1.svg') }}"
                                                 class="img-fluid rounded-3" alt="Stories Image Profile">
-                                            <h6 style="margin: 18px 0 2px;">Emma Johnson</h6>
-                                            <p class="paragraph-primary" style="margin-bottom: 8px;">Singing Category
-                                                Winner</p>
-                                            <p class="paragraph-small">Join Our Talent Contest and Showcase Your
-                                                Skills!"
-                                                Participate in our talent contest by registering online and get ready to
-                                                showcase your unique talents to the world.</p>
+                                            <h6 style="margin: 18px 0 2px;">Jessica Anderson</h6>
+                                            <p class="paragraph-primary" style="margin-bottom: 8px;">First Place
+                                                Singer</p>
+                                            <p class="paragraph-small">Jessica Anderson, a talented vocalist with a
+                                                powerful voice and captivating stage presence, took the top spot in the
+                                                singing category of our talent contest.</p>
                                         </div>
                                     </div>
 
@@ -200,37 +199,25 @@
                                         <div class="card-default">
                                             <img src="{{ asset('assets/img/stories/stories-2.svg') }}"
                                                 class="img-fluid rounded-3" alt="Stories Image Profile">
-                                            <h6 style="margin: 18px 0 2px;">David Thompson</h6>
-                                            <p class="paragraph-primary" style="margin-bottom: 8px;">Dance Category
-                                                Winner</p>
-                                            <p class="paragraph-small">David's dynamic and innovative dance moves won
-                                                the hearts of the judges and the audience alike.</p>
+                                            <h6 style="margin: 18px 0 2px;">Mark Johnson</h6>
+                                            <p class="paragraph-primary" style="margin-bottom: 8px;">Second Place
+                                                Singer</p>
+                                            <p class="paragraph-small">Mark Johnson's hilarious and witty stand-up
+                                                routine won over the judges and had the audience roaring with laughter.
+                                                With impeccable timing, and relatable storytelling.</p>
                                         </div>
                                     </div>
 
                                     <div class="swiper-slide">
                                         <div class="card-default">
-                                            <img src="{{ asset('assets/img/stories/stories-1.svg') }}"
+                                            <img src="{{ asset('assets/img/stories/stories-3.svg') }}"
                                                 class="img-fluid rounded-3" alt="Stories Image Profile">
-                                            <h6 style="margin: 18px 0 2px;">Emma Johnson</h6>
-                                            <p class="paragraph-primary" style="margin-bottom: 8px;">Singing Category
-                                                Winner</p>
-                                            <p class="paragraph-small">Join Our Talent Contest and Showcase Your
-                                                Skills!"
-                                                Participate in our talent contest by registering online and get ready to
-                                                showcase your unique talents to the world.</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="card-default">
-                                            <img src="{{ asset('assets/img/stories/stories-2.svg') }}"
-                                                class="img-fluid rounded-3" alt="Stories Image Profile">
-                                            <h6 style="margin: 18px 0 2px;">David Thompson</h6>
-                                            <p class="paragraph-primary" style="margin-bottom: 8px;">Dance Category
-                                                Winner</p>
-                                            <p class="paragraph-small">David's dynamic and innovative dance moves won
-                                                the hearts of the judges and the audience alike.</p>
+                                            <h6 style="margin: 18px 0 2px;">Grace Thompson</h6>
+                                            <p class="paragraph-primary" style="margin-bottom: 8px;">Third Place
+                                                Singer</p>
+                                            <p class="paragraph-small">Grace Thompson's breathtaking contemporary dance
+                                                performance left the judges and spectators in awe. Her graceful
+                                                movements, and precise technique.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -282,8 +269,9 @@
                                 dreams become reality and stars are born.</p>
                         </div>
                         <div class="wrapper-button d-flex gap-2 align-items-md-center">
-                            <a href="#" class="button-default">Contact Us</a>
-                            <a href="#" class="button-third d-flex align-items-center gap-2">
+                            <a href="https://wa.me/6281234567890" target="_blank" class="button-default">Contact
+                                Us</a>
+                            <a href="#criteria" class="button-third d-flex align-items-center gap-2">
                                 Check Criteria
                                 <div class="arrow-icon"></div>
                             </a>

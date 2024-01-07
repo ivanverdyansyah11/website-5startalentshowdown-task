@@ -539,7 +539,7 @@
         </div>
 
         {{-- CTA --}}
-        <div class="container position-relative">
+        <div class="container position-relative" data-aos="zoom-in-up" data-aos-duration="800">
             <section class="cta position-relative">
                 <div class="row justify-content-center position-relative" style="z-index: 9999;">
                     <div

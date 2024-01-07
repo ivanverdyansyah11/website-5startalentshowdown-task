@@ -353,7 +353,7 @@
                     <div class="col-lg-7 col-xl-6 order-2 order-lg-1">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="card-default">
+                                <div class="card-default" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">
                                     <div class="wrapper d-flex justify-content-between align-items-center"
                                         style="margin-bottom: 6px;">
                                         <h6>Technical Skill</h6>
@@ -365,7 +365,7 @@
                                     <progress value="40" max="100"></progress>
                                 </div>
 
-                                <div class="card-default mt-4">
+                                <div class="card-default mt-4" data-aos="fade-right" data-aos-duration="1400">
                                     <div class="wrapper d-flex justify-content-between align-items-center"
                                         style="margin-bottom: 6px;">
                                         <h6>Stage Presence</h6>
@@ -379,7 +379,7 @@
                             </div>
 
                             <div class="col-md-6">
-                                <div class="card-default mt-4 mt-md-0">
+                                <div class="card-default mt-4 mt-md-0" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">
                                     <div class="wrapper d-flex justify-content-between align-items-center"
                                         style="margin-bottom: 6px;">
                                         <h6>Creativity and Originality</h6>
@@ -391,7 +391,7 @@
                                     <progress value="30" max="100"></progress>
                                 </div>
 
-                                <div class="card-default mt-4">
+                                <div class="card-default mt-4" data-aos="fade-right" data-aos-duration="1400">
                                     <div class="wrapper d-flex justify-content-between align-items-center"
                                         style="margin-bottom: 6px;">
                                         <h6>Overall Impact</h6>
@@ -407,35 +407,35 @@
                     </div>
 
                     <div class="offset-xl-1 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">
-                        <span class="subtitle d-inline-block" style="margin-bottom: 14px !important;">Skill and
+                        <span class="subtitle d-inline-block" style="margin-bottom: 14px !important;" data-aos="fade-right" data-aos-duration="1400">Skill and
                             Technique Assessment</span>
-                        <h2 class="title" style="margin-bottom: 18px !important; padding-right: 24px;">Our Judging
+                        <h2 class="title" style="margin-bottom: 18px !important; padding-right: 24px;" data-aos="fade-right" data-aos-duration="1400">Our Judging
                             Criteria for Talent Contest</h2>
-                        <p class="paragraph">In our talent contest, we uphold fairness and transparency through our
+                        <p class="paragraph" data-aos="fade-right" data-aos-duration="1400">In our talent contest, we uphold fairness and transparency through our
                             carefully crafted judging criteria. Our panel of expert judges evaluates performances based
                             on a set of criteria that encompasses skill, creativity, stage presence, originality, and
                             audience engagement.</p>
                         <div class="wrapper-criteria">
                             <div class="row">
                                 <div class="col-6 d-flex flex-column gap-3">
-                                    <div class="criteria-item d-flex align-items-center gap-2">
+                                    <div class="criteria-item d-flex align-items-center gap-2" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">
                                         <img src="{{ asset('assets/img/icon/checklist.svg') }}" class="img-fluid"
                                             alt="Checklist Icon">
                                         <p class="paragraph-small">Broad Audience Reach</p>
                                     </div>
-                                    <div class="criteria-item d-flex align-items-center gap-2">
+                                    <div class="criteria-item d-flex align-items-center gap-2" data-aos="fade-right" data-aos-duration="1400">
                                         <img src="{{ asset('assets/img/icon/checklist.svg') }}" class="img-fluid"
                                             alt="Checklist Icon">
                                         <p class="paragraph-small">Prizes and Rewards</p>
                                     </div>
                                 </div>
                                 <div class="col-6 d-flex flex-column gap-3">
-                                    <div class="criteria-item d-flex align-items-center gap-2">
+                                    <div class="criteria-item d-flex align-items-center gap-2" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">
                                         <img src="{{ asset('assets/img/icon/checklist.svg') }}" class="img-fluid"
                                             alt="Checklist Icon">
                                         <p class="paragraph-small">Valuable Feedback</p>
                                     </div>
-                                    <div class="criteria-item d-flex align-items-center gap-2">
+                                    <div class="criteria-item d-flex align-items-center gap-2" data-aos="fade-right" data-aos-duration="1400">
                                         <img src="{{ asset('assets/img/icon/checklist.svg') }}" class="img-fluid"
                                             alt="Checklist Icon">
                                         <p class="paragraph-small">Personal Growth</p>

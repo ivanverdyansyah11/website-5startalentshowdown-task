@@ -88,17 +88,17 @@
             <section class="step section-gap" id="step">
                 <div class="row">
                     <div class="col-lg-5 mb-5 mb-lg-0">
-                        <span class="subtitle d-inline-block" style="margin-bottom: 14px !important;">Step-by-Step Guide
+                        <span class="subtitle d-inline-block" style="margin-bottom: 14px !important;" data-aos="fade-right" data-aos-duration="1400">Step-by-Step Guide
                             to Showcasing Your Talent</span>
-                        <h2 class="title" style="margin-bottom: 18px !important; padding-right: 24px;">Step into the
+                        <h2 class="title" style="margin-bottom: 18px !important; padding-right: 24px;" data-aos="fade-right" data-aos-duration="1400">Step into the
                             Spotlight, Show the World Your Talent</h2>
-                        <p class="paragraph">Welcome to the How to Participate
+                        <p class="paragraph" data-aos="fade-right" data-aos-duration="1400">Welcome to the How to Participate
                             section!
                             Here, we guide you through the
                             steps to showcase your extraordinary skills and be a part of our talent contest. From
                             auditions to submissions.</p>
                         <a href="#about" class="button-default d-none d-lg-flex align-items-center gap-2"
-                            style="margin-top: 36px !important;">
+                            style="margin-top: 36px !important;" data-aos="fade-right" data-aos-duration="1400">
                             Get Started
                             <div class="arrow-icon">
                             </div>
@@ -107,7 +107,7 @@
                     <div class="offset-xl-1 col-lg-7 col-xl-6">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="card-default">
+                                <div class="card-default" data-aos="fade-left" data-aos-duration="1400">
                                     <span class="card-number d-flex justify-content-center align-items-center"
                                         style="margin-bottom: 18px;">1</span>
                                     <h6 style="margin-bottom: 6px;">Register and Shine</h6>
@@ -116,7 +116,7 @@
                                         showcase your unique talents to the world.</p>
                                 </div>
 
-                                <div class="card-default mt-4 mt-md-0 d-md-none">
+                                <div class="card-default mt-4 mt-md-0 d-md-none" data-aos="fade-left" data-aos-duration="1400">
                                     <span class="card-number d-flex justify-content-center align-items-center"
                                         style="margin-bottom: 18px;">2</span>
                                     <h6 style="margin-bottom: 6px;">Prepare, Perform, and Impress</h6>
@@ -125,7 +125,7 @@
                                         other talent.</p>
                                 </div>
 
-                                <div class="card-default mt-4">
+                                <div class="card-default mt-4" data-aos="fade-left" data-aos-duration="1400">
                                     <span class="card-number d-flex justify-content-center align-items-center"
                                         style="margin-bottom: 18px;">3</span>
                                     <h6 style="margin-bottom: 6px;">Unleash Your Potential</h6>
@@ -135,7 +135,7 @@
                                 </div>
 
 
-                                <div class="card-default mt-4 d-md-none">
+                                <div class="card-default mt-4 d-md-none" data-aos="fade-left" data-aos-duration="1400">
                                     <span class="card-number d-flex justify-content-center align-items-center"
                                         style="margin-bottom: 18px;">4</span>
                                     <h6 style="margin-bottom: 6px;">Join the Spotlight</h6>
@@ -145,7 +145,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="card-default mt-4 mt-md-0 d-none d-md-inline-block">
+                                <div class="card-default mt-4 mt-md-0 d-none d-md-inline-block" data-aos="fade-left" data-aos-duration="1400">
                                     <span class="card-number d-flex justify-content-center align-items-center"
                                         style="margin-bottom: 18px;">2</span>
                                     <h6 style="margin-bottom: 6px;">Prepare, Perform, and Impress</h6>
@@ -154,7 +154,7 @@
                                         other talent.</p>
                                 </div>
 
-                                <div class="card-default mt-4 d-none d-md-inline-block">
+                                <div class="card-default mt-4 d-none d-md-inline-block" data-aos="fade-left" data-aos-duration="1400">
                                     <span class="card-number d-flex justify-content-center align-items-center"
                                         style="margin-bottom: 18px;">4</span>
                                     <h6 style="margin-bottom: 6px;">Join the Spotlight</h6>

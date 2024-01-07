@@ -47,26 +47,26 @@
                 <div class="hero-content d-flex align-items-center py-4 py-lg-0 pb-xl-5 pb-xxl-0">
                     <div class="row align-items-center">
                         <div class="col-lg-7 col-xl-6 col-xxl-7 pe-xxl-5 pe-xxl-0">
-                            <span class="subtitle d-inline-block" style="margin-bottom: 14px !important;">Showcasing
+                            <span class="subtitle d-inline-block" style="margin-bottom: 14px !important;" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="1600">Showcasing
                                 Talent, Inspiring
                                 Creativity</span>
-                            <h1 class="headline" style="margin-bottom: 26px !important; padding-right: 24px;">Unleash
+                            <h1 class="headline" style="margin-bottom: 26px !important; padding-right: 24px;" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="2000">Unleash
                                 Your Potential, Be the
                                 Star You're
                                 Meant to Be</h1>
                             <div class="wrapper-paragraph d-flex flex-column gap-2 pe-xxl-5"
                                 style="margin-bottom: 36px !important;">
-                                <p class="paragraph">Welcome to the 5 Star Talent Showdown, where dreams come to life
+                                <p class="paragraph" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="2400">Welcome to the 5 Star Talent Showdown, where dreams come to life
                                     and talents are celebrated. Join us for an extraordinary journey of self-expression,
                                     creativity, and unforgettable performances.</p>
-                                <p class="paragraph">Showcase your unique skills and passion in front of a captivated
+                                <p class="paragraph" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="2600">Showcase your unique skills and passion in front of a captivated
                                     audience, and let your talent take center stage. Are you ready to make your mark and
                                     leave a lasting impression? It's time to step into the spotlight and embrace your
                                     moment of glory at the 5 Star Talent Showdown!</p>
                             </div>
                             <div class="wrapper-button d-flex gap-2 align-items-md-center flex-column flex-md-row">
-                                <a href="#gallery" class="button-default">Introduce Showdown</a>
-                                <a href="#about" class="button-secondary d-flex align-items-center gap-2">
+                                <a href="#gallery" class="button-default" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">Introduce Showdown</a>
+                                <a href="#about" class="button-secondary d-flex align-items-center gap-2" data-aos="fade-right" data-aos-duration="1400">
                                     Get Started
                                     <div class="arrow-icon"></div>
                                 </a>
@@ -74,7 +74,7 @@
                         </div>
                         <div class="col-lg-5 col-xl-6 col-xxl-5 ps-lg-5 ps-xxl-0 d-none d-lg-flex justify-content-end">
                             <img src="{{ asset('assets/img/banner/hero-banner.svg') }}" class="img-fluid Hero Banner"
-                                alt="Hero Banner">
+                                alt="Hero Banner" data-aos="fade" data-aos-duration="1400" data-aos-delay="1000">
                         </div>
                     </div>
                 </div>

@@ -453,15 +453,15 @@
             <section class="faq d-flex align-items-center section-gap pt-5 section-gap-top" id="faq">
                 <div class="row align-items-center">
                     <div class="col-lg-7 col-xl-6 col-xxl-7 pe-xxl-5 pe-xxl-0">
-                        <span class="subtitle d-inline-block" style="margin-bottom: 14px !important;">Find answers to
+                        <span class="subtitle d-inline-block" style="margin-bottom: 14px !important;" data-aos="fade-right" data-aos-duration="1400">Find answers to
                             your queries</span>
-                        <h2 class="title" style="padding-right: 24px;">Frequently Asked Questions, Your Guide to
+                        <h2 class="title" style="padding-right: 24px;" data-aos="fade-right" data-aos-duration="1400">Frequently Asked Questions, Your Guide to
                             Success</h2>
-                        <p class="paragraph" style="margin-bottom: 36px !important;">Discover answers to commonly
+                        <p class="paragraph" style="margin-bottom: 36px !important;" data-aos="fade-right" data-aos-duration="1400">Discover answers to commonly
                             asked questions about the talent contest,
                             eligibility, submission guidelines, and more. We're here to provide clarity and support to
                             ensure your journey is smooth.</p>
-                        <div class="accordion" id="collapseOne">
+                        <div class="accordion" id="collapseOne" data-aos="fade-up" data-aos-duration="1400">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button card-default" type="button"
@@ -483,7 +483,7 @@
                             </div>
                         </div>
 
-                        <div class="accordion mt-3" id="collapseTwo">
+                        <div class="accordion mt-3" id="collapseTwo" data-aos="fade-up" data-aos-duration="1400">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button card-default" type="button"
@@ -505,7 +505,7 @@
                             </div>
                         </div>
 
-                        <div class="accordion mt-3" id="collapseThree">
+                        <div class="accordion mt-3" id="collapseThree" data-aos="fade-up" data-aos-duration="1400">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
                                     <button class="accordion-button card-default" type="button"
@@ -531,7 +531,7 @@
                     </div>
                     <div class="col-lg-5 col-xl-6 col-xxl-5 ps-lg-5 ps-xxl-0 d-none d-lg-flex justify-content-end">
                         <img src="{{ asset('assets/img/banner/faq-banner.svg') }}" class="img-fluid FAQ Banner"
-                            alt="Hero Banner">
+                            alt="Hero Banner" data-aos="fade" data-aos-duration="1400">
                     </div>
                 </div>
             </section>

@@ -185,7 +185,7 @@
                         <div class="wrapper">
                             <div class="swiper mySwiperStories">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1400">
                                         <div class="card-default">
                                             <img src="{{ asset('assets/img/stories/stories-1.svg') }}"
                                                 class="img-fluid rounded-3" alt="Stories Image Profile">
@@ -198,7 +198,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">
                                         <div class="card-default">
                                             <img src="{{ asset('assets/img/stories/stories-2.svg') }}"
                                                 class="img-fluid rounded-3" alt="Stories Image Profile">
@@ -211,7 +211,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">
                                         <div class="card-default">
                                             <img src="{{ asset('assets/img/stories/stories-3.svg') }}"
                                                 class="img-fluid rounded-3" alt="Stories Image Profile">
@@ -230,11 +230,11 @@
                     </div>
 
                     <div class="offset-xl-1 col-lg-5 mb-5 mb-lg-0 order-1 order-lg-2">
-                        <span class="subtitle d-inline-block" style="margin-bottom: 14px !important;">Inspiring Paths
+                        <span class="subtitle d-inline-block" style="margin-bottom: 14px !important;" data-aos="fade-right" data-aos-duration="1400">Inspiring Paths
                             to Success</span>
-                        <h2 class="title" style="margin-bottom: 18px !important; padding-right: 24px;">Stories of
+                        <h2 class="title" style="margin-bottom: 18px !important; padding-right: 24px;" data-aos="fade-right" data-aos-duration="1400">Stories of
                             Triumph and Inspiring Achievements</h2>
-                        <p class="paragraph">Get inspired by the extraordinary journeys of our past winners. Through
+                        <p class="paragraph" data-aos="fade-right" data-aos-duration="1400">Get inspired by the extraordinary journeys of our past winners. Through
                             their talent, resilience, and unwavering commitment, they have not only won the contest but
                             have also become role models for aspiring talents around the world.</p>
                     </div>

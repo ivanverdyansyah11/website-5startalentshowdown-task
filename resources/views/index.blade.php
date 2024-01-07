@@ -291,11 +291,11 @@
             <section class="gallery section-gap" id="gallery">
                 <div class="row">
                     <div class="col-lg-5 mb-5 mb-lg-0">
-                        <span class="subtitle d-inline-block" style="margin-bottom: 14px !important;">Moments of
+                        <span class="subtitle d-inline-block" style="margin-bottom: 14px !important;" data-aos="fade-right" data-aos-duration="1400">Moments of
                             Brilliance and Creativity</span>
-                        <h2 class="title" style="margin-bottom: 18px !important; padding-right: 24px;">Capturing
+                        <h2 class="title" style="margin-bottom: 18px !important; padding-right: 24px;" data-aos="fade-right" data-aos-duration="1400">Capturing
                             Moments of Talent and Inspiration</h2>
-                        <p class="paragraph">Explore our gallery showcasing captivating moments from previous talent
+                        <p class="paragraph" data-aos="fade-right" data-aos-duration="1400">Explore our gallery showcasing captivating moments from previous talent
                             contests, where talented individuals from various disciplines took the stage, unleashing
                             their creativity and leaving a lasting impact.</p>
                     </div>
@@ -303,35 +303,35 @@
                         <div class="wrapper">
                             <div class="swiper mySwiperGallery">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1400">
                                         <div class="wrapper-image">
                                             <img src="{{ asset('assets/img/gallery/gallery-1.svg') }}"
                                                 class="img-fluid w-100" alt="Gallery Image">
                                         </div>
                                     </div>
 
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">
                                         <div class="wrapper-image">
                                             <img src="{{ asset('assets/img/gallery/gallery-2.svg') }}"
                                                 class="img-fluid w-100" alt="Gallery Image">
                                         </div>
                                     </div>
 
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="600">
                                         <div class="wrapper-image">
                                             <img src="{{ asset('assets/img/gallery/gallery-3.svg') }}"
                                                 class="img-fluid w-100" alt="Gallery Image">
                                         </div>
                                     </div>
 
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="900">
                                         <div class="wrapper-image">
                                             <img src="{{ asset('assets/img/gallery/gallery-4.svg') }}"
                                                 class="img-fluid w-100" alt="Gallery Image">
                                         </div>
                                     </div>
 
-                                    <div class="swiper-slide">
+                                    <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="1200">
                                         <div class="wrapper-image">
                                             <img src="{{ asset('assets/img/gallery/gallery-5.svg') }}"
                                                 class="img-fluid w-100" alt="Gallery Image">

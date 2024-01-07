@@ -248,35 +248,35 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5 col-xl-6 col-xxl-5 pe-lg-5 pe-xxl-0 d-none d-lg-flex justify-content-start">
                         <img src="{{ asset('assets/img/banner/about-banner.svg') }}" class="img-fluid About Banner"
-                            alt="Hero Banner">
+                            alt="Hero Banner" data-aos="fade" data-aos-duration="1400">
                     </div>
                     <div class="col-lg-7 col-xl-6 col-xxl-7 ps-xxl-5 ps-xxl-0">
-                        <span class="subtitle d-inline-block" style="margin-bottom: 14px !important;">Unleash Your
+                        <span class="subtitle d-inline-block" style="margin-bottom: 14px !important;" data-aos="fade-right" data-aos-duration="1400">Unleash Your
                             Creativity, Inspire the World</span>
-                        <h2 class="title" style="padding-right: 24px;">Unleashing the
+                        <h2 class="title" style="padding-right: 24px;" data-aos="fade-right" data-aos-duration="1400">Unleashing the
                             Power of Talent, A Platform for Dreamers to Shine and Inspire</h2>
                         <div class="wrapper-about d-flex gap-2" style="margin: 18px 0 20px !important;">
-                            <button class="button-about button-introduce active">Introduce</button>
-                            <button class="button-about button-vision">Vision & Mission</button>
-                            <button class="button-about button-history">Our History</button>
+                            <button class="button-about button-introduce active" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="600">Introduce</button>
+                            <button class="button-about button-vision" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">Vision & Mission</button>
+                            <button class="button-about button-history" data-aos="fade-right" data-aos-duration="1400">Our History</button>
                         </div>
                         <div class="wrapper-paragraph d-flex flex-column gap-2"
                             style="margin-bottom: 36px !important;">
-                            <p class="paragraph paragraph-one">At our talent contest, we are committed to unleashing
+                            <p class="paragraph paragraph-one" data-aos="fade-right" data-aos-duration="1400">At our talent contest, we are committed to unleashing
                                 the power of
                                 talent and providing a platform for dreamers to showcase their unique abilities. We
                                 believe that everyone deserves a chance to be heard, seen, and celebrated for their
                                 extraordinary gifts.</p>
-                            <p class="paragraph paragraph-two">With a vibrant community of artists, mentors, and
+                            <p class="paragraph paragraph-two" data-aos="fade-right" data-aos-duration="1400">With a vibrant community of artists, mentors, and
                                 enthusiasts, we
                                 foster an environment that sparks creativity, fosters growth, and inspires others to
                                 pursue their passions. Join us on this incredible journey of talent discovery, where
                                 dreams become reality and stars are born.</p>
                         </div>
                         <div class="wrapper-button d-flex gap-2 align-items-md-center">
-                            <a href="https://wa.me/6281234567890" target="_blank" class="button-default">Contact
+                            <a href="https://wa.me/6281234567890" target="_blank" class="button-default" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">Contact
                                 Us</a>
-                            <a href="#criteria" class="button-third d-flex align-items-center gap-2">
+                            <a href="#criteria" class="button-third d-flex align-items-center gap-2" data-aos="fade-right" data-aos-duration="1400">
                                 Check Criteria
                                 <div class="arrow-icon"></div>
                             </a>
